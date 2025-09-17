@@ -1,0 +1,91 @@
+/* Tipografía y fondo */
+body {
+    font-family: 'Muli', sans-serif;
+    color: #333;
+    background-color: #f9f6ff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #6a0dad;
+}
+
+/* Navbar */
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #cfa0e9;
+}
+
+/* Secciones */
+.resume-section {
+    padding: 60px 15px;
+    background-color: #f9f6ff;
+}
+
+.resume-section-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Subheading */
+.subheading {
+    color: #6a0dad;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #6a0dad;
+    border-color: #6a0dad;
+}
+.btn-primary:hover {
+    background-color: #cfa0e9;
+    border-color: #cfa0e9;
+}
+
+/* Iconos sociales */
+.social-icons a {
+    color: #6a0dad;
+    margin-right: 15px;
+}
+.social-icons a:hover {
+    color: #cfa0e9;
+}
+
+/* Listas de habilidades y logros */
+.fa-li i {
+    color: #6a0dad;
+}
+.fa-li i.text-warning {
+    color: #cfa0e9;
+}
+
+/* Imágenes de perfil */
+.img-profile {
+    border: 4px solid #6a0dad;
+    border-radius: 50%;
+}
+
+#sideNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 100%;
+    background-color: #6a0dad;
+    padding-top: 20px;
+    z-index: 1000;
+}
+
+#sideNav .navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#page-top {
+    margin-left: 220px; /* para que el contenido no quede debajo de la barra */
+}
+
