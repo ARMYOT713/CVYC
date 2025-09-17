@@ -89,3 +89,21 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 220px; /* para que el contenido no quede debajo de la barra */
 }
 
+/* Ajuste general para pantallas pequeñas */
+@media (max-width: 768px) {
+    #sideNav {
+        width: 100%; /* Que ocupe todo el ancho */
+        position: relative; /* Que ya no se quede fijo */
+        text-align: center; /* Centra los enlaces */
+    }
+
+    #sideNav ul {
+        padding: 0;
+    }
+
+    #sideNav li {
+        display: inline-block; /* Opcional: para que se pongan en línea */
+        margin: 5px;
+    }
+}
+
